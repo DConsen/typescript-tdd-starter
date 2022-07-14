@@ -9,6 +9,6 @@ describe("greet", () => {
     greet();
 
     // Assert
-    expect(console.log).toHaveBeenCalledWith("hello world");
+    expect(console.log).toHaveBeenCalledWith("hello world!");
   });
 });
