@@ -12,4 +12,8 @@ describe('Calculator', () => {
     it('should return sum when two numbers seperated by comma', function () {
         expect(Add('3,4')).toBe(7);
     });
+
+    it('should return sum for any amount of comma seperated numbers', function () {
+        expect(Add('1,2,3,4,')).toBe(10);
+    });
 })
